@@ -18,11 +18,8 @@ btnGenerate.addEventListener('click', () => {
 
     var generateSpan = document.querySelector('button span')
 
-    navigator.clipboard.writeText(resultBox.innerHTML).then(() => {
+    navigator.clipboard.writeText(`https://api.whatsapp.com/send?phone=55${cell}&text=${encodedMsg}`).then(() => {
         generateSpan.innerText = 'Copiado!'
     })
-
-
-   
 
 })
