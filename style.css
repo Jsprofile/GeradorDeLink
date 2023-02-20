@@ -19,7 +19,7 @@ body{
     min-height: 100vh;
     gap: 3vh;
     padding: 0 20vw;
-    background: rgb(221, 221, 221);
+    background: #FFF;
 }
 
 .inputs{
